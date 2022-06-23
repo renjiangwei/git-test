@@ -25,4 +25,8 @@ git push -u origin feature-ts
 
 ## git checkout 
 1. 工作区代码还没add时，想放弃修改 git checkout . or git checkout filename
-2. 工作区代码add了，想放弃添加缓存区 git add.
+2. 工作区代码add了，想放弃添加缓存区 git add.之后 git reset filename HEAD 此时filename被移出缓存区，可以选择git checkout操作放弃修改
+3. 
+
+## git clean 
+git clean -xdf 清除新增文件
