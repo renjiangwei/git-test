@@ -4,3 +4,7 @@ git branch newBranch
 git checkout newBranch
 
 git checkout -b newBranch
+
+## git push
+git push origin feature-ts:feature-ts
+git push origin 本地分支:远程分支
